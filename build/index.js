@@ -171,5 +171,5 @@ function createWorker(files) {
         total.SPAM += thread_results[i].SPAM;
     }
     exports.analyzerInstance.result = total;
-    console.log(exports.analyzerInstance.result, 'result');
+    console.log(exports.analyzerInstance.result);
 }());
